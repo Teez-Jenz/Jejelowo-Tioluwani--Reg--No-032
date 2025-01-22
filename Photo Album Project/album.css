@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+ 
+.photo-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+     
+}
+
+.photo{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.photo-1{
+    background-image: url(/photo\ image\ 1.jpg);
+    background-size: cover;
+    transition: background-image 2s linear 1s;
+}
+
+.photo-1:hover{
+    background-image: url(/photo\ image\ 10.jpg);
+}
+
+.photo-2{
+    background-image: url(/photo\ image\ 2.jpg);
+    background-size: cover;
+}
+.photo-3{
+    background-image: url(/photo\ image\ 3.jpg);
+    background-size: cover;
+}
+.photo-4{
+    background-image: url(/photo\ image\ 4.jpg);
+    background-size: cover;
+}
+.photo-5{
+    background-image: url(/photo\ image\ 5.jpg);
+    background-size: cover;
+}
+.photo-6{
+    background-image: url(/photo\ image\ 6.jpg);
+    background-size: cover;
+}
+.photo-7{
+    background-image: url(/photo\ image\ 7.jpg);
+    background-size: cover;
+}
+.photo-8{
+    background-image: url(/photo\ image\ 8.jpg);
+    background-size: cover;
+}
+.photo-9{
+    background-image: url(/photo\ image\ 9.jpg);
+    background-size: cover;
+}
+.photo-10{
+    background-image: url(/photo\ image\ 10.jpg);
+    background-size: cover;
+}
+.photo-11{
+    background-image: url(/photo\ image\ 11.jpg);
+    background-size: cover;
+}
+.photo-12{
+    background-image: url(/photo\ image\ 12.jpg);
+    background-size: cover;
+}

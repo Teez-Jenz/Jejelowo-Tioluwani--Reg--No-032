@@ -1,0 +1,133 @@
+body{
+    
+    background-image:  url(/theimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    /*
+   
+    
+    background-position: center;
+    */
+    background-color: black;
+    color: white;
+}
+
+#netflix{
+    color: rgb(250, 50, 50);
+    font-size: 50px;
+
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#signin{
+    color: white;
+}
+
+.sign{
+    background-color: black;
+    border: 2px solid black;
+    height: 500px;
+    width: 350px;
+
+    margin-top: 140px;
+    margin-left: 450px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.input{
+    background-color: black;
+    font-size: medium;
+    width: 300px;
+    height: 50px;
+    color: white;
+    border: 0.5px solid white;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#button{
+    width: 310px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+#button2{
+    width: 310px;
+    height: 35px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+}
+
+#or{
+    color: white;
+    padding-left: 140px;
+}
+
+a{
+    color: white;
+    padding-left: 95px;
+}
+
+#new{
+    color: grey;
+    
+}
+#link2{
+    padding-left: 0px;
+    
+}
+
+#learn{
+    color: blue;
+    padding-left: 0px;
+}
+#page{
+    padding-right: 30px;
+}
+
+#blank{
+    color: black;
+}
+
+.footer{
+    color: white;
+    padding-left: 35px;
+}
+
+#foot-1{
+    display: inline;  
+}
+#foot-2{
+    display: inline; 
+    padding-left: 250px; 
+}
+#foot-3{
+    display: inline;
+    padding-left: 150px;   
+}
+#foot-4{
+    display: inline;
+    padding-left: 150px;   
+}
+#foot-5{
+    display: inline; 
+}
+#foot-6{
+    display: inline;
+    padding-left: 150px;   
+}
+  
+#lang{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    width: 120px;
+    height: 35px;
+    margin-left: 90px;
+    margin-bottom: 70px;
+}

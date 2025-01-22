@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Build a webpage using Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/IMG-20230801-WA0078.jpg" alt="Logo" width="80" height="60px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">   
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destination">Destination</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#relax">Relax</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/photo image 1.jpg" class="d-block w-100" alt="IMage 1" width="900" height="648">
+        </div>
+        <div class="carousel-item">
+          <img src="/photo image 2.jpg" class="d-block w-100" alt="Image 2" width="900" height="648">
+        </div>
+        <div class="carousel-item">
+          <img src="/photo image 3.jpg" class="d-block w-100" alt="Image 3" width="900" height="648">
+        </div>
+        <div class="carousel-item">
+          <img src="/photo image 4.jpg" class="d-block w-100" alt="Image 4" width="900" height="648">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand">Navbar</a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  
+    
+
+
+    <!-- Main Container -->
+     <div class="container">
+        <h1 class="text-center p-5 mt-5 mb-5">Tour Canada</h1>
+    
+        
+        <div class="w-100 bg-dark-subtle p-5 mb-5">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repudiandae soluta sapiente placeat deleniti est! Culpa necessitatibus sequi, libero, et assumenda debitis commodi odit ullam, suscipit ipsa ut! Cum est perspiciatis in numquam culpa quo corporis modi, error asperiores dicta facilis, architecto eos nulla totam iure exercitationem ipsam quasi possimus inventore nobis minima aliquid fugit! Autem quos assumenda non porro odio suscipit quaerat amet, omnis, illum quis debitis consequuntur soluta. Ab quos possimus vitae iste commodi, a sint tempore sit cum vel quia optio eligendi dicta soluta quis tenetur magnam provident! Numquam a voluptas veritatis architecto excepturi eaque nobis temporibus?</p>
+          <button type="button" class="btn btn-primary btn-lg">Book your trip Now</button>
+        </div>
+
+        <h2 id="destination" class="fs-1 p-5 mt-5 mb-5 text-center">POPULAR DESTINATIONS</h2>
+
+        <div class="row">
+          <div class="col">
+            <!-- Card 1 -->
+            <div class="card">
+              <img src="/photo image 5.jpg" class="card-img-top" alt="Photo 5">
+              <div class="card-body">
+                <h5 class="card-title">Banff</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla molestiae tempore reiciendis quas quam error quibusdam a id temporibus veritatis assumenda quia, ab in. Praesentium veniam odio possimus qui. Aut?</p>
+                <a href="#" class="btn btn-primary">Read More </a>
+              </div>
+            </div>
+          </div> 
+          <div class="col">
+            <!-- Card 2 -->
+            <div class="card">
+              <img src="/photo image 4.jpg" class="card-img-top" alt="Photo 4">
+              <div class="card-body">
+                <h5 class="card-title">Peggy,s cove</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla molestiae tempore reiciendis quas quam error quibusdam a id temporibus veritatis assumenda quia, ab in. Praesentium veniam odio possimus qui. Aut?</p>
+                <a href="#" class="btn btn-primary">Read More </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!-- Card 3 -->
+            <div class="card">
+              <img src="/photo image 6.jpg" class="card-img-top" alt="Photo 6">
+              <div class="card-body">
+                <h5 class="card-title">Yukon</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla molestiae tempore reiciendis quas quam error quibusdam a id temporibus veritatis assumenda quia, ab in. Praesentium veniam odio possimus qui. Aut?</p>
+                <a href="#" class="btn btn-primary">Read More </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- About  -->
+        <h2 id="about" class="fs-1 p-5 mt-5 mb-5 text-center">ABOUT</h2>
+        <div class="row">
+          <div class="col-6">
+            <div class="bg-secondary text-white p-5 mt-5 mb-5">
+              <h2>Rates</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, illo! Ut facilis ipsum, quo hic ducimus earum debitis qui expedita sapiente aliquid aut voluptate placeat. Nihil fugit id, minima ratione fuga est soluta aliquid voluptatibus sed ut expedita nobis beatae culpa asperiores atque mollitia doloremque! Nihil voluptate harum sunt ab.</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="bg-dark-subtle p-5 mt-5 mb-5">
+              <h2>Fees</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, illo! Ut facilis ipsum, quo hic ducimus earum debitis qui expedita sapiente aliquid aut voluptate placeat. Nihil fugit id, minima ratione fuga est soluta aliquid voluptatibus sed ut expedita nobis beatae culpa asperiores atque mollitia doloremque! Nihil voluptate harum sunt ab.</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="bg-dark-subtle p-5 mt-5 mb-5">
+              <h2>Popular sites</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, illo! Ut facilis ipsum, quo hic ducimus earum debitis qui expedita sapiente aliquid aut voluptate placeat. Nihil fugit id, minima ratione fuga est soluta aliquid voluptatibus sed ut expedita nobis beatae culpa asperiores atque mollitia doloremque! Nihil voluptate harum sunt ab.</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="bg-secondary text-white p-5 mt-5 mb-5">
+              <h2>Features</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, illo! Ut facilis ipsum, quo hic ducimus earum debitis qui expedita sapiente aliquid aut voluptate placeat. Nihil fugit id, minima ratione fuga est soluta aliquid voluptatibus sed ut expedita nobis beatae culpa asperiores atque mollitia doloremque! Nihil voluptate harum sunt ab.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Contact Us  -->
+        <h2 id="contact" class="fs-1 p-5 mt-5 mb-5 text-center">CONTACT US </h2>
+        <div class="w-100 bg-dark-subtle p-5 mb-5">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repudiandae soluta sapiente placeat deleniti est! Culpa necessitatibus sequi, libero, et assumenda debitis commodi odit ullam, suscipit ipsa ut! Cum est perspiciatis in numquam culpa quo corporis modi, error asperiores dicta facilis, architecto eos nulla totam iure exercitationem ipsam quasi possimus inventore nobis minima aliquid fugit! Autem quos assumenda non porro odio suscipit quaerat amet, omnis, illum quis debitis consequuntur soluta. Ab quos possimus vitae iste commodi, a sint tempore sit cum vel quia optio eligendi dicta soluta quis tenetur magnam provident! Numquam a voluptas veritatis architecto excepturi eaque nobis temporibus?</p>
+          <button type="button" class="btn btn-primary btn-lg"><a href="mailto: tioluwaniemmyjay@gmail.com" class="text-white text-decoration-none" >Contact Us For More Information</a></button>
+        </div>
+
+        <h2 id="relax" class="fs-1 p-5 mt-5 mb-5 text-center">RELAX</h2>
+        <img src="/photo image 2.jpg" alt="Vacation" class="w-100 mb-5">
+
+     </div>
+     <!-- End of .container -->
+
+     <div class="container text-center">
+      <div class="row">
+        <div class="col bg-dark text-white m-1">
+          Column
+        </div>
+        <div class="col bg-dark text-white m-1">
+          Column 
+        </div>
+        <div class="col bg-dark text-white m-1">
+          Column
+        </div>
+      </div>
+
+      <a href="https://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+      <i class="fa fa-clone" aria-hidden="true"></i>
+    </div>
+
+     <footer class="bg-dark text-white text-center mt-5 p-5">
+      <p>&copy; Tour Canada</p>
+      <p><a href="mailto: tioluwaniemmyjay@gmail.com" class="text-white">Email us</a></p>
+
+     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
